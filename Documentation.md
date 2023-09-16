@@ -35,6 +35,10 @@
 4. Once EB finishes, you can see the application URL on the third to last line (Application available at URL)
    
    http://url-shortener-dev22222.us-east-1.elasticbeanstalk.com/
+5. Afterward, copy and paste the link into your web browser to verify the successful deployment of the application.
+
+![image](https://github.com/SaraGurungLABS01/Deployment_3/assets/140760966/f34cf51d-1fe9-4b1d-925e-b02ccffacfa9)
+
 
 
 
