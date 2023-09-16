@@ -67,7 +67,7 @@ None
 
 ## OPTIMIZATION
 
-To make this deployment process more efficient, consider periodically reviewing and optimizing AWS resource allocation to match actual usage. Additionally, explore caching mechanisms to reduce the load on the application servers, improving overall performance and cost-effectiveness.
+To make this deployment process more efficient, consider periodically reviewing and optimizing AWS resource allocation to match actual usage. Additionally, explore caching mechanisms to reduce the load on the application servers, improving overall performance and cost-effectiveness. Utilizing containerization technologies like Docker for application packaging can also improve portability and resource utilization.
 
 
 
