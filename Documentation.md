@@ -60,6 +60,9 @@ The purpose of this deployment process is to establish a streamlined and automat
 
 ![image](https://github.com/SaraGurungLABS01/Deployment_3/assets/140760966/b4321284-bb5d-41ca-9ac5-75bc8b895e7b)
 
+## SYSTEM DIAGRAM
+
+![System Diagram](https://github.com/SaraGurungLABS01/Deployment_3/assets/140760966/bbfd01d4-7c9f-45c2-b555-6e574285cbe7)
 
 
 ## ISSUES
