@@ -55,9 +55,12 @@
 ## 5. Configuring Webhook
 1. Follow the link to set up a GitHub webhook for Jenkins deployment which serves to automate build and deployment processes triggered by code changes in a GitHub repository
    Link: https://scribehow.com/shared/Setting_up_a_GitHub_webhook_for_Jenkins_deployment__OCRQGNvARfWF4clyeFcsGQ
-2. Once the webhook was configured, 
+2. Once the webhook was configured, I edited some line of code in the template file and went to the jenkins interface, I noticed that the stages were running automatically and the application was successfully redeployed
+
+![image](https://github.com/SaraGurungLABS01/Deployment_3/assets/140760966/b4321284-bb5d-41ca-9ac5-75bc8b895e7b)
 
 
+3. 
 
 
 
