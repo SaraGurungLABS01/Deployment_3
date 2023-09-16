@@ -26,7 +26,16 @@
 ![image](https://github.com/SaraGurungLABS01/Deployment_3/assets/140760966/23820817-5e5d-4d85-9a98-2ca0f0f81dce)
 
 ## 3. Install AWS EB CLI 
-1. Follow the instruction in given link : https://scribehow.com/shared/How_to_install_AWS_EB_CLI__J6eBRB9FQl2fGenfUVemlA
+1. Makesure that you install AWS CLI using the following instruction link : https://scribehow.com/shared/How_to_Install_AWS_CLI__1MnhqmpcRxupkx_F-EcreQ
+2. Follow the instruction in given link : https://scribehow.com/shared/How_to_install_AWS_EB_CLI__J6eBRB9FQl2fGenfUVemlA
+3. Once you run the 'eb create', you will notice that it will take couple of minutes to finish and you will also notice all the different activities that are taking place.
+   
+   ![IAM](https://github.com/SaraGurungLABS01/Deployment_3/assets/140760966/dcafc952-0e39-4e80-b7ab-96b1f011c076)
+
+4. Once EB finishes, you can see the application URL on the third to last line (Application available at URL)
+   
+   http://url-shortener-dev22222.us-east-1.elasticbeanstalk.com/
+
 
 
 
