@@ -45,6 +45,8 @@
 1. Open the jenkins file from the repository - Deployment_3 and add the following line of code : "stage ('Deploy') { steps { sh '/var/lib/jenkins/.local/bin/eb deploy' } } "
 2. Click commit changes and go to the Jenkins Web interface and click build now
 3. Monitor the pipeline and notice a new stage : Deploy
+4. Once its successful, click on the link for url-shortener and made sure its successfully deployed
+5. Noticed that the deployment process was initiated by Jenkins through the Deploy stage in the Jenkinsfile.
 
 
  ![Build 2](https://github.com/SaraGurungLABS01/Deployment_3/assets/140760966/a2c2bb15-01a9-4659-a05e-7316e5a65d51)
@@ -53,6 +55,7 @@
 ## 5. Configuring Webhook
 1. Follow the link to set up a GitHub webhook for Jenkins deployment which serves to automate build and deployment processes triggered by code changes in a GitHub repository
    Link: https://scribehow.com/shared/Setting_up_a_GitHub_webhook_for_Jenkins_deployment__OCRQGNvARfWF4clyeFcsGQ
+2. Once the webhook was configured, 
 
 
 
