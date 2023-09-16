@@ -61,7 +61,13 @@ The purpose of this deployment process is to establish a streamlined and automat
 ![image](https://github.com/SaraGurungLABS01/Deployment_3/assets/140760966/b4321284-bb5d-41ca-9ac5-75bc8b895e7b)
 
 
-3. 
+
+## ISSUES
+None
+
+## OPTIMIZATION
+
+To make this deployment process more efficient, consider periodically reviewing and optimizing AWS resource allocation to match actual usage. Additionally, explore caching mechanisms to reduce the load on the application servers, improving overall performance and cost-effectiveness.
 
 
 
