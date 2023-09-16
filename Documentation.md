@@ -25,7 +25,7 @@
     
 ![image](https://github.com/SaraGurungLABS01/Deployment_3/assets/140760966/23820817-5e5d-4d85-9a98-2ca0f0f81dce)
 
-## 3. Install AWS EB CLI 
+## 3. Install AWS EB CLI and Initial Deployment
 1. Makesure that you install AWS CLI using the following instruction link : https://scribehow.com/shared/How_to_Install_AWS_CLI__1MnhqmpcRxupkx_F-EcreQ
 2. Follow the instruction in given link : https://scribehow.com/shared/How_to_install_AWS_EB_CLI__J6eBRB9FQl2fGenfUVemlA
 3. Once you run the 'eb create', you will notice that it will take couple of minutes to finish and you will also notice all the different activities that are taking place.
@@ -38,6 +38,28 @@
 5. Afterward, copy and paste the link into your web browser to verify the successful deployment of the application.
 
 ![image](https://github.com/SaraGurungLABS01/Deployment_3/assets/140760966/f34cf51d-1fe9-4b1d-925e-b02ccffacfa9)
+
+
+
+## 4. Editing the Jenkins File and redeploying the application
+1. Open the jenkins file from the repository - Deployment_3 and add the following line of code : "stage ('Deploy') { steps { sh '/var/lib/jenkins/.local/bin/eb deploy' } } "
+2. Click commit changes and go to the Jenkins Web interface and click build now
+3. Monitor the pipeline and notice a new stage : Deploy
+
+
+ ![Build 2](https://github.com/SaraGurungLABS01/Deployment_3/assets/140760966/a2c2bb15-01a9-4659-a05e-7316e5a65d51)
+  
+
+## 5. Configuring Webhook
+1. Follow the link to set up a GitHub webhook for Jenkins deployment which serves to automate build and deployment processes triggered by code changes in a GitHub repository
+   Link: https://scribehow.com/shared/Setting_up_a_GitHub_webhook_for_Jenkins_deployment__OCRQGNvARfWF4clyeFcsGQ
+
+
+
+
+
+
+
 
 
 
