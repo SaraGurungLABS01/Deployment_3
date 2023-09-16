@@ -1,5 +1,6 @@
+## PURPOSE:
 
-
+The purpose of this deployment process is to establish a streamlined and automated pipeline for deploying a web application to Amazon Web Services (AWS) Elastic Beanstalk using Jenkins. This deployment pipeline aims to enhance efficiency, reduce manual intervention, and ensure reliable and consistent deployments of the application. Through this process, we seek to achieve rapid and error-free deployments while maintaining visibility and control over the entire deployment lifecycle. Additionally, the documentation serves as a reference guide for setting up and maintaining the deployment pipeline.
 
 ## STEPS:
 
