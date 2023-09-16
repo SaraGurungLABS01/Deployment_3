@@ -19,6 +19,7 @@
 6. Access Jenkins Web Interface: http://[18.212.141.203:8080]
 7. Enter the initial admin password and follow the setup wizard.
 8. 
+![image](https://github.com/SaraGurungLABS01/Deployment_3/assets/140760966/23820817-5e5d-4d85-9a98-2ca0f0f81dce)
 
 
 
