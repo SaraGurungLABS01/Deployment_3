@@ -19,8 +19,14 @@
 6. Access Jenkins Web Interface: http://[18.212.141.203:8080]
 7. Enter the initial admin password and follow the setup wizard.
 8. Create a multibranch pipeline, select "GitHub" under branch sources, and provide your GitHub link and credentials to run the application build
-9. if you need a new personal token, please refer to the steps on how to create a new personal token from the previous repositories ( Deployment-1 for instance)
+9. If you need a new personal token, please refer to the steps on how to create a new personal token from the previous repositories ( Deployment-1 for instance)
+10. Monitor the pipeline and once its successful proceed to next step 
+    
+    
 ![image](https://github.com/SaraGurungLABS01/Deployment_3/assets/140760966/23820817-5e5d-4d85-9a98-2ca0f0f81dce)
+
+## 3. Install AWS EB CLI 
+1. Follow the instruction in given link : https://scribehow.com/shared/How_to_install_AWS_EB_CLI__J6eBRB9FQl2fGenfUVemlA
 
 
 
